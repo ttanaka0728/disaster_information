@@ -1,0 +1,222 @@
+*{
+    font-family: 'Noto Sans JP', sans-serif;
+    box-sizing:border-box ;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.firstView h1{
+    font-size: 64px;
+    text-align: center;
+    padding-top: 320px;
+    color: #fff;
+}
+.firstView p{
+    font-size: 14px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.firstView{
+    background-image: url(images/futaba.jpeg);
+    background-size: cover;
+    height: 800px;
+}
+.about{
+    padding: 180px;
+}
+.profile h2{
+    font-size: 64px;
+    letter-spacing: 0.1em;
+}
+.profile h3{
+    font-size: 24px;
+    margin-top: 72px;
+}
+.profile p{
+    font-size: 16px;
+    margin-top: 24px;
+}
+.profile img{
+    width: 480px;
+    height: 270px;
+    float: left;
+    margin-left: 50px;
+}
+.profile .profile-text{
+    width: 500px;
+    float: left;
+}
+.clearfix{
+    clear: both;
+}
+.school-club{
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.school-club img{
+width: 480px;
+height: 270px;
+border-radius: 16px;
+}
+.school-club h3{
+    margin-top: 8px;
+}
+.school-club a{
+    display: inline-block;
+    border-bottom: 1px solid;
+    margin-top: 32px;
+}
+.favorite h2{
+  font-size: 64px;
+  text-align: center;  
+}
+.favorite-contents{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+    margin-top: 80px;
+    
+    
+}
+.favorite-content{
+    width: 320px;
+    margin: 0 auto;
+    padding: 40px;
+    color: #000;
+    
+}
+.favorite-content h3{
+    font-size: 24px;
+    margin-top: 16px;
+}
+.favorite-content p{
+    font-size: 16px;
+    text-align-last: left;
+    margin-top: 32px;
+}
+.favorite-content img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.favorite{
+    text-align: center;
+    background-color: #E6E6E6;
+}
+.works h2{
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    border-bottom: 3px solid #000;
+    display: inline-block;
+}
+.works{
+    padding: 180px;
+    text-align: center;
+    background-color: #3FA9F5;
+}
+.works-content{
+    display: flex;
+    background-color: #fff;
+}
+.works-content img{
+    width: 320px;
+    height: 180px;
+}
+.works-content h3{
+    font-size: 28px;
+}
+.works-content{
+    font-size: 16px;
+    margin-top: 16px;
+    margin-top: 40px;
+    padding: 40px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    text-align: left;
+}
+.works-content span{
+    font-size: 16px;
+    margin-left: 16px;
+}
+.works-text{
+    margin-left: 16px;
+}
+.contact{
+    padding: 180px 370px;
+    text-align: center;
+}
+.contact h2{
+    font-size: 64px;
+    letter-spacing: 0.1em;
+    border-bottom: 3px solid #000;
+    display: inline-block;
+}
+.contact p{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    line-height: 200%;
+    margin-top: 48px;
+    text-align: left;
+}
+.contact a{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #fff;
+    line-height: 80px;
+    display: inline-block;
+    border-radius: 16px;
+}
+.contact .sns-twitter{
+    background-color: #00acee;
+}
+.contact .sns-facebook{
+    background-color: #3b5998;
+}
+.contact .sns-website{
+    background-color: #333333;
+}
+.contact .sns{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+header{
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 180px;
+    position: fixed;
+    width: 100vw;
+    width: 100vw;
+    background-color: rgba(255,255,255,0.8);
+}
+header p{
+    font-size: 24px;
+    font-weight: bold;
+}
+header ul{
+   width: 600px;
+    display: flex;
+    justify-content: space-between; 
+}
+header a{
+    font-size: 16px;
+    font-weight: bold;
+}
+footer{
+    height: 80px;
+    background-color: #B3B3B3;
+    line-height: 80px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
